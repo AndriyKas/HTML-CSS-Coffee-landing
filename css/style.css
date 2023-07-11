@@ -53,7 +53,6 @@ a {
 
 
 .header_language a {
-   color: white;
    font-weight: 600;
    text-transform: uppercase;
    font-size: 14px;
@@ -66,7 +65,6 @@ a {
 }
 
 .header__phone {
-   color: white;
    font-weight: 600;
    font-size: 14px;
 
@@ -135,4 +133,38 @@ a {
 .logo img{
    height: 54px;
    display: block;
+}
+
+/* INTRO */
+
+.intro {
+   
+}
+
+.intro__wrapper {
+   min-height: 720px;
+   display: flex;
+   align-items: center;
+   padding: 20px  0;
+}
+
+.intro__block {
+   max-width: 565px;
+}
+
+.intro__title {
+   margin: 0 0 35px;
+   font-size: 60px;
+   font-weight: 900;
+   line-height: 1.4;
+   text-transform: uppercase;
+}
+
+.intro__text {
+   font-size: 18px;
+   color: ;
+}
+
+.intro__actions {
+
 }
