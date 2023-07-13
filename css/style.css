@@ -286,9 +286,3 @@ a {
    line-height: 1.45;
    color: #DFDFDF;
 }
-
-/* Catalog */
-
-.catalog__title {
-   display: flex;
-}
