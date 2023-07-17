@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap"); 
-/* HEADER */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap"); /* HEADER */
 .header {
   border-bottom: 1px solid #323230;
 }
@@ -419,6 +418,95 @@ h2 {
 .nav-footer .nav_link {
   margin-right: 0;
   margin-bottom: 20px;
+}
+
+.mainProduct__wrapper {
+  display: flex;
+  padding-bottom: 80px;
+}
+.mainProduct__title {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 900;
+  padding: 100px 0 56px 0;
+}
+.mainProduct__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14141D;
+  height: 520px;
+  min-width: 780px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.mainProduct__photo img {
+  height: 400px;
+}
+.mainProduct__characteristics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #14141D;
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+.mainProduct__price {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+.mainProduct__price p {
+  margin: 0;
+  font-weight: 700;
+  padding-right: 30px;
+}
+.mainProduct__size {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.mainProduct__sizeSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border: white solid 2px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+.mainProduct__sizeSelector.mainProduct__sizeSelector_active {
+  border: #C7A17A solid 2px;
+  color: #C7A17A;
+}
+.mainProduct__sizeSelector:hover {
+  border: #C7A17A solid 2px;
+  color: #C7A17A;
+}
+.mainProduct_addToCart {
+  height: 50px;
+  width: 340px;
+  color: white;
+  background-color: #C7A17A;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.mainProduct_addToCart:hover {
+  background-color: #a98a6c;
+}
+
+* {
+  font-family: Jost, sans-serif;
 }
 
 *, *::before, *::after {
