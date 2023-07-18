@@ -65,20 +65,25 @@
 .header__link{
    padding-right: 35px;
    align-items: center;
-   position: relative;
 }
 
 .header__link:last-child {
    padding-right: 0;
+   position: relative;
 }
 
 .header__link-event {
-   font-size: 50px;
-   color: #C7A17A;
-   display: block;
-   position: absolute;
-   top: -45px;
-   right: -7px;
+   &::after {
+      content: '';
+      display: inline-block;
+      background-color: #C7A17A;
+      height: 6px;
+      width: 6px;
+      border-radius: 50%;
+      position: absolute;
+      top: -6px;
+      right: 0px;
+   }
 }
 
 .nav {

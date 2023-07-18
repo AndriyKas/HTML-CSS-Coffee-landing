@@ -101,3 +101,41 @@
    font-family: Jost, sans-serif;   
 }
 
+.description {
+
+   &__title {
+      font-weight: 900;
+      font-size: 24px;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+   }
+
+   &_subtitle {
+      background-color: #14141D;
+      padding: 30px;
+      margin-bottom: 80px;
+      border-radius: 10px;
+      line-height: 1.45em;
+      font-size: 18px;
+      font-weight: 400;
+      & li {
+         position: relative;
+         margin-left: 20px;
+      }
+      & li::before {
+      content: '';
+      display: inline-block;
+      width: 2px; /* Двічі більше значення радіусу */
+      height: 2px; /* Двічі більше значення радіусу */
+      border-radius: 50%; /* Радіус кола */
+      background-color: white; /* Колір кола */
+      position: absolute;
+      top: 8px;
+      left: -8px;
+      }
+   }
+
+   
+}
+
+
