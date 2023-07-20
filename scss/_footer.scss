@@ -1,0 +1,30 @@
+
+/*footer */
+
+.footer {
+   border-top: 2px solid #14141D;
+   padding: 80px;
+}
+
+.footer__wrapper {
+   display: flex;
+   margin: 0 -10px;
+   align-items: center;
+}
+
+.footer__block {
+   width: 33%;
+   padding: 0 10px;
+   
+
+}
+
+.footer__logo img{
+   display: block;
+   max-height: 80px;
+}
+
+.nav-footer .nav_link {
+   margin-right: 0;
+   margin-bottom: 20px;
+}
